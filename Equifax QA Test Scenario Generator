@@ -1,0 +1,27 @@
+# 🚀 Equifax QA – Test Scenario Generator
+
+This repository is designed to automate the generation of structured **Equifax test scenarios** and export them into a **well-formatted Excel report** using an AI-powered agent.
+
+---
+
+## 📌 Overview
+
+This project uses an **AAVA Agent (CrewAI-based)** to:
+
+- ✅ Read user stories / requirements
+- ✅ Automatically generate test scenarios
+- ✅ Structure them into standardized test cases
+- ✅ Convert them into a formatted Excel file
+- ✅ Upload the generated Excel file directly to GitHub
+
+---
+
+## ⚙️ Configuration
+
+```python
+GITHUB_TOKEN = "your_github_token"
+REPO_OWNER = "bbascendion"
+REPO_NAME = "Equifax-QA"
+AUTHOR_EMAIL = "bhargav.balla@ascendion.com"
+BRANCH_BASE = "main"
+``
